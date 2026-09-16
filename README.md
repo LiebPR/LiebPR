@@ -1,39 +1,25 @@
-**AlejandroPR Dev**
-*Unity Game Developer & C# Software Engineer*
+# Alejandro PR | Unity & C# Game Developer
 
-Especializado en arquitectura de código, optimización en tiempo real y lógicas de gameplay. Enfocado en el diseño de sistemas escalables mediante código limpio, la aplicación rigurosa de patrones de diseño y la creación de arquitecturas desacopladas.
-
----
-
-**Conocimientos Técnicos y Arquitectura**
-
-| Categoría | Tecnologías y Patrones Aplicados |
-| :--- | :--- |
-| **Engine & Lenguaje** | Unity Engine, C# (.NET) |
-| **Principios de Diseño** | SOLID |
-| **Patrones de Arquitectura** | State Pattern, Observer Pattern, Finite State Machine (FSM), Object Pooling |
-| **Especialidades** | Lógicas de Gameplay, Sistemas Escalables, Optimización en Tiempo Real |
+Especializado en **Arquitectura Limpia**, **Principios SOLID** y **Optimización de Rendimiento** para desarrollo en Unity. Enfocado en construir sistemas modulares y desacoplados utilizando **Inyección de Dependencias** basada en interfaces y **Comunicación por Eventos**.
 
 ---
 
-**Plan de Estudio & Hoja de Ruta Actual**
+### 🛠️ Competencias Técnicas & Arquitectura
 
-Competencias y metodologías actualmente en proceso de aprendizaje e integración en mi flujo de trabajo:
-
-* **Control de Versiones Avanzado:** Profundización en Git/GitHub, aseguramiento de ramas, resolución avanzada de conflictos e integración de flujos de trabajo con agentes de IA.
-* **Optimización del Workflow:** Automatización de tareas mecánicas mediante GitHub Copilot y herramientas de IA generativa para priorizar el diseño de sistemas.
-* **Arquitectura Limpia Avanzada:** Desacoplamiento total de managers globales y eliminación de dependencias rígidas entre sistemas.
-* **Alto Rendimiento:** Estudio del paradigma Data-Oriented Technology Stack (DOTS) y ECS (Entity Component System) de Unity.
+* **Motor y Lenguaje:** Unity 2D / 3D | C#
+* **Arquitectura y Patrones:** Principios SOLID | Inyección de Dependencias | Comunicación por Eventos | FSM | Object Pooling
+* **Rendimiento y Memoria:** Control del Ciclo de Vida | Gestión del Garbage Collector | Bucle Centralizado de Ticks (`ITickable`, `IFixedTickable`) | Arquitectura con Clases Puras de C#
+* **Flujo de Trabajo:** Git | GitHub Desktop | PowerShell
 
 ---
 
-**Certificaciones en Preparación**
+### 🎮 Proyectos
 
-- [ ] **Microsoft Learn:** GitHub Foundations *(En proceso)*
-- [ ] **Microsoft Learn:** GitHub Copilot
-- [ ] **Unity Certification:** Professional Programmer
+#### **Dead Live** — *Horde Survival 2.5D (Cel-Shaded)*
+* **Reto Técnico:** Optimización de FPS y prevención de picos del Garbage Collector frente a hordas masivas de enemigos.
+* **Arquitectura:** Sustitución de `MonoBehaviours` pesados por **clases puras de C#** para gestionar las entidades, reduciendo drásticamente la sobrecarga de memoria.
+* **Control de Ciclo de Vida:** Centralización del flujo de ejecución mediante un gestor central con interfaces `ITickable` y `IFixedTickable`, respaldado por **Object Pooling** y **Máquinas de Estados (FSM)**.
 
----
-
-**Contacto Profesional**
-* **Email:** [alejandro.dev.pr@gmail.com](mailto:alejandro.dev.pr@gmail.com)
+#### **Burden Of Choices** — *Puzzles y Narrativa 3D*
+* **Reto Técnico:** Control de físicas interactivo y gestión dinámica de IA enemiga.
+* **Sistemas:** Implementación de mecánicas de físicas aplicadas a la resolución de acertijos y control de comportamiento/rutas de enemigos mediante **Unity NavMesh**.
