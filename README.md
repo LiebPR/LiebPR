@@ -8,8 +8,7 @@ Especializado en **Arquitectura Limpia**, **Principios SOLID** y **Optimización
 
 * **Motor y Lenguaje:** Unity 2D / 3D | C#
 * **Arquitectura y Patrones:** Principios SOLID | Inyección de Dependencias | Comunicación por Eventos | FSM | Object Pooling
-* **Rendimiento y Memoria:** Control del Ciclo de Vida | Gestión del Garbage Collector | Bucle Centralizado de Ticks (`ITickable`, `IFixedTickable`) | Arquitectura con Clases Puras de C#
-* **Flujo de Trabajo:** Git | GitHub Desktop | PowerShell
+* **Rendimiento y Memoria:** Control del Ciclo de Vida | Gestión del Garbage Collector.
 
 ---
 
